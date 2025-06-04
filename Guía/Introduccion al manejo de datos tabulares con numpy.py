@@ -1,6 +1,13 @@
+'''
+Clase:        Clase 7
+Tema:         Introduccion al manejo de datos tabulares con numpy
+Ejercicio:    Guia
+Descripción:  El codigo analiza el consumo semanal de 10 hogares usando, calculando promedios, totales, máximos, mínimos y desviaciones tanto por hogar como por día. Identifica los hogares que consumen más o menos, normaliza los datos entre 0 y 1, y responde preguntas específicas como el consumo de ciertos días, hogares con consumo mayor a 100, o el efecto de un aumento del 10% en el consumo de un hogar. 
+Autor:        David Alejandro Aguilar Aguilar
+Fecha:        2025-05-30
+Estado:       [ Terminado ]
+'''
 import numpy as np
-
-
 consumo = np.array([
     [12.5, 13.2, 11.9, 14.0, 13.5, 15.0, 14.3],
     [10.1, 10.5, 10.0, 11.2, 11.5, 12.0, 11.8],
